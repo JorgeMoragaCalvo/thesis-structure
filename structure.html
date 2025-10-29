@@ -1,0 +1,171 @@
+<h2>📁 thesis-impl</h2>
+<ul>
+  <li>
+    <details open>
+      <summary><b>backend/</b> <i># FastAPI backend</i></summary>
+      <ul>
+        <li>
+          <details>
+            <summary><b>app/</b></summary>
+            <ul>
+              <li>__init__.py</li>
+              <li>main.py <i># FastAPI app entry point</i></li>
+              <li>config.py <i># Configuration settings</i></li>
+              <li>dependencies.py <i># Dependency injection</i></li>
+              <li>
+                <details>
+                  <summary><b>api/</b> <i># API routes</i></summary>
+                  <ul>
+                    <li>__init__.py</li>
+                    <li>chat.py <i># Chat endpoints</i></li>
+                    <li>assessment.py <i># Assessment endpoints</i></li>
+                    <li>feedback.py <i># Feedback endpoints</i></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary><b>agents/</b> <i># LangGraph agents</i></summary>
+                  <ul>
+                    <li>__init__.py</li>
+                    <li>orchestrator.py <i># Main orchestrator agent</i></li>
+                    <li>operations_research_agent.py</li>
+                    <li>mathematical_modeling_agent.py</li>
+                    <li>linear_programming_agent.py</li>
+                    <li>integer_programming_agent.py</li>
+                    <li>nonlinear_programming_agent.py</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary><b>chains/</b> <i># LangChain chains</i></summary>
+                  <ul>
+                    <li>__init__.py</li>
+                    <li>explanation_chain.py</li>
+                    <li>assessment_chain.py</li>
+                    <li>feedback_chain.py</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary><b>models/</b> <i># Data models</i></summary>
+                  <ul>
+                    <li>__init__.py</li>
+                    <li>student.py</li>
+                    <li>conversation.py</li>
+                    <li>assessment.py</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary><b>services/</b> <i># Business logic</i></summary>
+                  <ul>
+                    <li>__init__.py</li>
+                    <li>student_service.py</li>
+                    <li>conversation_service.py</li>
+                    <li>assessment_service.py</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary><b>database/</b> <i># Database layer</i></summary>
+                  <ul>
+                    <li>__init__.py</li>
+                    <li>session.py <i># DB session management</i></li>
+                    <li>
+                      <details>
+                        <summary><b>repositories/</b></summary>
+                        <ul>
+                          <li>__init__.py</li>
+                          <li>student_repository.py</li>
+                          <li>conversation_repository.py</li>
+                        </ul>
+                      </details>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary><b>tests/</b> <i># Backend tests</i></summary>
+            <ul>
+              <li>__init__.py</li>
+              <li>test_api/</li>
+              <li>test_agents/</li>
+            </ul>
+          </details>
+        </li>
+        <li>requirements.txt</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary><b>frontend/</b> <i># Streamlit frontend</i></summary>
+      <ul>
+        <li>app.py <i># Main Streamlit app</i></li>
+        <li>
+          <details>
+            <summary><b>pages/</b> <i># Multi-page app</i></summary>
+            <ul>
+              <li>chat.py</li>
+              <li>assessment.py</li>
+              <li>progress.py</li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <b>components/</b> <i># Reusable UI components</i>
+            </summary>
+            <ul>
+              <li>chat_interface.py</li>
+              <li>feedback_display.py</li>
+            </ul>
+          </details>
+        </li>
+        <li>requirements.txt</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary><b>shared/</b> <i># Shared utilities</i></summary>
+      <ul>
+        <li>__init__.py</li>
+        <li>constants.py</li>
+        <li>utils.py</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary><b>data/</b> <i># Course content & data</i></summary>
+      <ul>
+        <li>course_materials/</li>
+        <li>exercises/</li>
+        <li>assessments/</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary><b>docs/</b> <i># Documentation</i></summary>
+      <ul>
+        <li>thesis-project.md</li>
+      </ul>
+    </details>
+  </li>
+  <li>.env.example <i># Environment variables template</i></li>
+  <li>.gitignore</li>
+  <li>docker-compose.yml <i># Optional: Docker setup</i></li>
+  <li>README.md</li>
+</ul>
